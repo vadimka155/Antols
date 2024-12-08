@@ -1,0 +1,84 @@
+
+/*------------------------------------------ALL-------------------------------------------------------*/
+:root {
+    --white: #FFFFFF;
+    --button:#FF6E30;
+    --background:#1E252B ;
+  }
+  
+
+
+  .container{ 
+    width: 1245px;
+    margin: 0 auto;
+    padding:0 15px;
+  }
+
+
+
+  a{text-decoration: none;}
+
+  li {list-style-type: none;}
+
+  body{font-family:"Poppins",sans-serif;}
+
+
+
+/*------------------------------------------HEADER-------------------------------------------------------*/
+.welkom{background-color: var(--background);}
+
+
+  .navigation-wrap{
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between; 
+    align-items: center;
+  }
+
+  .logo-header{
+color: var(--white);
+font-size: 22px;
+font-weight: 600;
+line-height: 1.5;
+margin-right: 257px;
+  }
+
+
+
+  .navigation-list{
+    display: flex;
+  }
+
+
+  .navigation-link{
+    color: rgba(255,255,255,55%);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+  }
+
+
+  .login{color: var(--white);}
+
+
+  .navagation-contact{display: flex; }
+
+
+  .header-button{
+    background-color: var(--button);
+    color: var(--white);
+
+
+width: 118px;
+height: 48px;
+top: 26px;
+left: 1214px;
+gap: 0px;
+border-radius: 8px 8px 8px 8px;
+opacity: 0px;
+
+
+
+    
+  }
+ 
